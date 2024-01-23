@@ -1,7 +1,7 @@
 import pygame
 
 class Fighter():
-  def __init__(self, player, x, y, flip, data, sprite_sheet, animation_steps, sound): dsfdsf
+  def __init__(self, player, x, y, flip, data, sprite_sheet, animation_steps, sound): 
     self.player = player
     self.size = data[0]
     self.image_scale = data[1]
